@@ -1,2 +1,5 @@
-# hpga-project-twitch-gamers
-Final Project High Performance Graph Analytics
+# Twitch Gamers Social Network Analysis
+
+In this project, an extensive examination was undertaken to analyze the structural intricacies of a social network dataset comprising 170,000 nodes, specifically sourced from Twitch users. The primary objective was to categorize and cluster platform users into distinct groups, allowing for a detailed investigation into the inherent characteristics of the data.
+One significant outcome of this analysis was the improvement in predicting links between users, which in turn facilitated more proactive and accurate user recommendations within the Twitch community.
+The methodology employed advanced techniques such as DeepWalk and Node2Vec algorithms, leveraging them to generate graph embeddings for the vast network encompassing 7 million edges. These graph embeddings, serving as multidimensional representations of the network's structure, were subsequently utilized in training Graphical Neural Networks. This sophisticated approach proved instrumental in predicting user lifetime and determining affiliate status on the Twitch platform. By employing these cutting-edge algorithms and methodologies, the project aimed to provide valuable insights into user interactions, preferences, and long-term engagement patterns within the Twitch social network.
